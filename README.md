@@ -1,6 +1,13 @@
 # Sharpness-Aware-Minimization-with-Z-Score-Gradient-Filtering
 NeurIPS OPT 2025: Sharpness-Aware Minimization with Z-Score Gradient Filtering <br>
-<br>
+[[Paper]](https://arxiv.org/abs/2505.02369) [[Workshop]](https://opt-ml.org/) [[Author Google Scholar]](https://scholar.google.com/citations?user=mlfYKfgAAAAJ&hl=en)
+
+
+<img width="1046" height="172" alt="Image" src="https://github.com/user-attachments/assets/330b8b9f-5f85-4943-90b9-daf77c98e038" />
+<br> <br>
+
+
+
 The settings of this repository are based on the default configuration of:
     
     https://github.com/omihub777/ViT-CIFAR
@@ -190,6 +197,9 @@ At the top of the same file (fast_adaptive_boundary.py), add the following funct
 
 
 <br><br><br>
+
+# Acknowledgement
+This research was supported by Brian Impact Foundation, a non-profit organization dedicated to the advancement of science and technology for all. 
 
 # Reference
 
