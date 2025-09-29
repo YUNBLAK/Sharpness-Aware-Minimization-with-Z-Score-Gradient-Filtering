@@ -166,7 +166,7 @@ is no longer supported. It was available in earlier versions but has since been 
 
 In summary: the error happens because `zero_gradients` has been removed from `torch.autograd.gradcheck` in PyTorch.
 
-<br><br><br>
+<br>
 
 ### Solution
 To fix this issue, manually define `zero_gradients` and replace its usage in the affected file.
@@ -187,6 +187,9 @@ At the top of the same file (fast_adaptive_boundary.py), add the following funct
         if x.grad is not None:
             x.grad.detach_()
             x.grad.zero_()
+
+
+<br><br><br>
 
 # Reference
 
