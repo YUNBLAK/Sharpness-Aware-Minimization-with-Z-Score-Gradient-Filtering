@@ -193,4 +193,14 @@ At the top of the same file (fast_adaptive_boundary.py), add the following funct
 
 # Reference
 
+    @article{yun2025zsharp,
+      title     = {Sharpness-Aware Minimization with Z-Score Gradient Filtering},
+      author    = {Yun, Vincent-Daniel},
+      journal   = {arXiv preprint arXiv:2505.02369},
+      year      = {2025},
+      doi       = {10.48550/arXiv.2505.02369},
+      url       = {https://arxiv.org/abs/2505.02369},
+    }
+
+
 
