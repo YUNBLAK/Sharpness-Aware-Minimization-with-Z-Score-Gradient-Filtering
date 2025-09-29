@@ -158,10 +158,15 @@ The settings of this repository are based on the default configuration of:
 
 
 ## [Error Handling] If you have "zero_gradient" error in Pytorch  
-This error occurred because the zero_gradients function was removed due to a PyTorch version update. In recent versions of PyTorch (especially 2.0 and above), the following changes were made: The torch.autograd.gradcheck.zero_gradients() function is no longer supported. This function was available in earlier versions but has been removed in the latest releases. As a result, some parts of the advertorch library are not compatible with the latest PyTorch versions, causing this issue.
+This error occurs because the zero_gradients function was removed in recent PyTorch updates. In PyTorch 2.0 and above, the function
 
+    torch.autograd.gradcheck.zero_gradients()
 
-Summary, this happens because `zero_gradients` has been **removed** from PyTorch's `torch.autograd.gradcheck`.
+is no longer supported. It was available in earlier versions but has since been removed. As a result, some parts of the advertorch library are not compatible with the latest versions of PyTorch, leading to this issue.
+
+In summary: the error happens because `zero_gradients` has been removed from `torch.autograd.gradcheck` in PyTorch.
+
+<br><br><br>
 
 ### Solution
 To fix this issue, manually define `zero_gradients` and replace its usage in the affected file.
