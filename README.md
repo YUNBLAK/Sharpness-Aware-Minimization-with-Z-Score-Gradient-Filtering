@@ -1,5 +1,4 @@
-# Sharpness-Aware-Minimization-with-Z-Score-Gradient-Filtering
-NeurIPS OPT 2025: Sharpness-Aware Minimization with Z-Score Gradient Filtering <br>
+# NeurIPS 2025 OPT: Sharpness-Aware Minimization with Z-Score Gradient Filtering
 [[Paper]](https://arxiv.org/abs/2505.02369) [[Workshop]](https://opt-ml.org/) [[Author Google Scholar]](https://scholar.google.com/citations?user=mlfYKfgAAAAJ&hl=en)
 
 
